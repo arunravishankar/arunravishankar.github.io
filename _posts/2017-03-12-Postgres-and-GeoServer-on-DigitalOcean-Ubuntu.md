@@ -1,5 +1,5 @@
 ---
-category: Data Analysis
+category: Blog
 ---
 # Setting Up Postgres/PostGIS and GeoServer on my Ubuntu Instance
 This is a basic tutorial for quickly installing Postgres w/ PostGIS and GeoServer on an Ubuntu image using Digital Ocean. Using these steps, you can be up and running in less than an hour.

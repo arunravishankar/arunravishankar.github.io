@@ -1,5 +1,5 @@
 ---
-category: Data Analysis
+category: Blog
 ---
 # Setting Up Foreign Data Wrappers (FDWs) in PostgreSQL
 This is a basic tutorial for connecting external data to your PostgreSQL database through what is called a "foreign data wrapper." 

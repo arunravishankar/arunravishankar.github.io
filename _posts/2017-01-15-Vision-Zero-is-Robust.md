@@ -1,5 +1,5 @@
 ---
-category: Vision Zero
+category: Blog
 ---
 # Vision Zero is Robust
 I have been re-reading Taleb's "Antifragile," and was delighted to find a discussion on speed and safety within his systems thinking.

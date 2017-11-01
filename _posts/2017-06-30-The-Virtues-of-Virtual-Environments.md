@@ -1,5 +1,5 @@
 ---
-category: Data Analysis
+category: Blog
 ---
 # Setting up a Virtual Environment with Anaconda
 Previously, I had a couple of python versions installed on my machine, and it was a hassle to keep track of which packages were installed on which version of python. After hearing a lot about 'virtual environments' I decided it was time to give it a try.

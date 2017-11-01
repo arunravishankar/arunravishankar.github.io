@@ -1,5 +1,5 @@
 ---
-category: Vision Zero
+category: Blog
 ---
 # The Vision Zero Engineering Bucket
 The engineering bucket consists of all the deaths that could feasibly be prevented through a change in the built environment (or, presumably, through AV technology). This is definitely the largest bucket, holding the largest potential for gain, which is why Sweden's laser focus on re-engineering their streets has been so successful.

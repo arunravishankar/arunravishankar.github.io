@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### Peer-reviewed Writing
+### Peer-reviewed Writing
 
 1. M.Brozen, T.Black, R.Liggett: Comparing Measures and Variables in Multimodal Street Performance Calculations ( [paper](http://trrjournalonline.trb.org/doi/10.3141/2420-01) )
 2. T.Black, J.Swartz, T.Fremaux - Vision Zero and Beyond: A Simple Yet Powerful Data Strategy for Evaluating Potential Engineering Solutions ( [paper](documents/TRB2017_VisionZeroBeyond_Paper.pdf) / [poster](documents/TRB2017_VisionZeroBeyond_Poster.pdf) )
