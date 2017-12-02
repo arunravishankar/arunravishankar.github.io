@@ -1,3 +1,7 @@
+---
+category: Blog
+---
+
 Project Background
 ------------------
 
