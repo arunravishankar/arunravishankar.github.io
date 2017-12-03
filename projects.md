@@ -11,8 +11,10 @@ The map displays all LA Metro transit service for the past 24 hours, colored bas
 
 *javascript, PHP, MySQL* ( [website](http://www.labusmap.com) / [code](http://www.github.com/black-tea) / [paper](documents/TRB2015_LABusMap_Paper.pdf) / [slides](documents/TRB2015_LABusMap_Slides.pdf) ) 
 
-### Jupyter Notebooks
+<img class="projects-image" src="images/lacommutemap_croppedclip.jpg">
 
-* [LA Bikeshare Analysis](https://nbviewer.jupyter.org/github/black-tea/la_bikeshare/blob/master/LABikeshareAnalysis.ipynb)
-* [Exploring My Google Location History](https://nbviewer.jupyter.org/github/black-tea/google_location_history/blob/master/MyTimeinLA.ipynb)
-* [Extracting Vehicle Volume Data from PDFs](https://nbviewer.jupyter.org/github/black-tea/vehicle-vol-pdf-scrape/blob/master/vol-pdf-scrape.ipynb)
+#### **LA Commute Map**
+An R Shiny dashboard that displays the travel-to-work modeshare for census tracts within the Los Angeles region. In addition to showing the latest 5-year ACS estimate, the map also shows changes over time.
+
+*R, Shiny* ( [website](http://104.236.5.1:3838/acs-commute-shiny/acs_commute/) / [code](https://github.com/black-tea/acs-commute-shiny))
+
