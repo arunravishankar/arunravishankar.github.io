@@ -10,18 +10,25 @@ layout: default
 4. M.Brozen, T.Black, H.Huff, R.Liggett - Multimodal Street Performance Measure Sensitivity Case Study: How to Get an A ( [poster](documents/TRB2015_MMLOS_Poster.pdf) )
 
 <div id="articles">
-{% for category in site.categories %}
-  <h3>{{ category | first }}</h3>
+
+  <h3>Blog</h3>
   <ul>
-    {% for posts in category %}
-      {% for post in site.categories.Blog %}
-        {% if post.url %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
+    {% for post in site.categories.Blog %}
+      {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
-    </ul>
-{% endfor %}
+  </ul>
+
+  <h3>Setup Notes</h3>
+  <ul>
+    {% for post in site.categories.Setup Notes %}
+      {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
 </div>
 
 ---
