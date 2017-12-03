@@ -1,5 +1,5 @@
 ---
-category: Blog
+category: Setup Notes
 ---
 # Setting Up My Windows Machine for Data Analysis
 This is my recording of the steps I've taken to setup my machine for the data analysis I've done here at the City. Theses instructions would be most useful to those working with spatial databases, especially if an ESRI product is installed. I am configuring my installations of PostgreSQL, ArcGIS for Desktop, and Python.
