@@ -1,5 +1,5 @@
 ---
-category: Setup Notes
+category: Setup-Notes
 ---
 Whenever I am testing a block of code that I plan to implement over a large dataset, I first test it with a small sample. I've found the following code snippet from [Huy Nguyen](https://www.huyng.com/posts/python-performance-analysis) to be invaluable for this task.
 

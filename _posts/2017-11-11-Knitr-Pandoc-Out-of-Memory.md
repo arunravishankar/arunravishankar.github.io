@@ -1,5 +1,5 @@
 ---
-category: Setup Notes
+category: Setup-Notes
 ---
 # Windows Pandoc 'Out of Memory' Error
 I recently started using R Notebook and was having problems with `knitr` to save as a markdown file. On Windows, Rmarkdown uses pandoc to render Rmd files, and I kept getting an ‘out of memory’ error even though I could see in the Task Manager that I still had more memory available. The issue was not a bug; apparently Windows sets an artificial limit of 2GB RAM allowed by the pandoc.exe application. I found the best explanation and solution on [Jonathan Chang's Blog](https://jonathanchang.org/blog/fixing-pandoc-out-of-memory-errors-on-windows/).

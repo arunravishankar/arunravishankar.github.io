@@ -1,5 +1,5 @@
 ---
-category: Setup Notes
+category: Setup-Notes
 ---
 # Adding a SRID to PostGIS
 _Update: Today I found out that there is an EPSG code for the NAD 83 US Feet, (EPSG:2229). Although it turned out to not be necessary for this projection, you may find the following steps still useful if you come across a less common projection_

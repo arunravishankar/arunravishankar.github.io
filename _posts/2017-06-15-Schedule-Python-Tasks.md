@@ -1,5 +1,5 @@
 ---
-category: Setup Notes
+category: Setup-Notes
 ---
 # Setting Up Windows Task Scheduler
 This is a post designed to show how easy it is to setup a windows task to run nightly. In this case, I want to run a series of python scripts to import data and insert it into our database.

@@ -1,5 +1,5 @@
 ---
-category: Setup Notes
+category: Setup-Notes
 ---
 # Exporting PostGIS Data
 This is going to go over a couple of different ways to get your data out of a PosgtreSQL table into some other format on your drive.

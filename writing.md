@@ -22,7 +22,7 @@ layout: default
 
   <h3>Setup Notes</h3>
   <ul>
-    {% for post in site.categories.Setup Notes %}
+    {% for post in site.categories.Setup-Notes %}
       {% if post.url %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
