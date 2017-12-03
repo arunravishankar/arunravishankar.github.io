@@ -11,7 +11,7 @@ The map displays all LA Metro transit service for the past 24 hours, colored bas
 
 *javascript, PHP, MySQL* ( [website](http://www.labusmap.com) / [code](http://www.github.com/black-tea) / [paper](documents/TRB2015_LABusMap_Paper.pdf) / [slides](documents/TRB2015_LABusMap_Slides.pdf) ) 
 
-<img class="projects-image" src="images/lacommutemap_croppedclip.jpg">
+<img class="projects-image" src="images/lacommutemap_croppedclip.jpeg">
 
 #### **LA Commute Map**
 An R Shiny dashboard that displays the travel-to-work modeshare for census tracts within the Los Angeles region. In addition to showing the latest 5-year ACS estimate, the map also shows changes over time.
