@@ -1,4 +1,6 @@
-
+---
+category: Blog
+---
 # Scraping LADOT Volume Data from PDFs
 
 ## Background
