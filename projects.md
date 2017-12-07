@@ -18,5 +18,15 @@ An R Shiny dashboard that displays the travel-to-work modeshare for census tract
 
 *R, Shiny* ( [website](http://104.236.5.1:3838/acs-commute-shiny/acs_commute/) / [code](https://github.com/black-tea/acs-commute-shiny))
 
+<div id="articles">
+  <h3>Analysis</h3>
+  <ul>
+    {% for post in site.categories.Projects %}
+      {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
 
 
