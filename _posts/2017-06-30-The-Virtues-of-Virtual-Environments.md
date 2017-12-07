@@ -46,4 +46,4 @@ python -m ipykernel install --user --name=[env_name]
 3. You should now be able to see your kernel in the IPython notebook menu: Kernel -> Change kernel and be able to switch to it (you may need to refresh the page)
 4. There you go!
 
-__*ipykernel will require Microsoft Visual C++ Compiler for Python. If you don't have it, you can get it from [here](http://aka.ms/vcpython27)__
+_*ipykernel will require Microsoft Visual C++ Compiler for Python. If you don't have it, you can get it from [here](http://aka.ms/vcpython27)_
