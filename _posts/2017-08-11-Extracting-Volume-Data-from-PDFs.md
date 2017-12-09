@@ -1,5 +1,5 @@
 ---
-category: Blog
+category: Projects
 ---
 # Scraping LADOT Volume Data from PDFs
 

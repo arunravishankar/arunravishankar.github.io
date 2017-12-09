@@ -1,5 +1,5 @@
 ---
-category: Blog
+category: Projects
 ---
 
 Project Background
