@@ -30,8 +30,8 @@ Elevation Dataset’s](https://nationalmap.gov/elevation.html) 1/3-second
 data with the [OpenStreetMap](http://www.openstreetmap.org/) grid to
 produce his result. For this project, I combined the same elevation data
 with the two layers I mentioned above. Another option in R that I could
-have pursued included utiling the R package `elevatr`, which includes
-querys for elevation data for a bunch of different APIs. Most of the
+have pursued included the R package `elevatr`, which includes
+queries for elevation data for a bunch of different APIs. Most of the
 APIs don’t provide access to Digital Elevation Models, which is the most
 precise elevation data, and definitely necessary for this project.
 Mapzen, though it does provide API access to raster layers and DEM-based
