@@ -2,6 +2,8 @@
 category: Setup-Notes
 ---
 # Setting up a Virtual Environment with Anaconda
+_Update (7/5/18): Since this original post, conda stopped automatically setting up environments as jupyter kernels, as explained [here.](https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook) This post has been updated with a workaround by using the `nb_conda_kernels` package._
+
 Previously, I had a couple of python versions installed on my machine, and it was a hassle to keep track of which packages were installed on which version of python. After hearing a lot about 'virtual environments' I decided it was time to give it a try.
 
 ## Prerequisite
@@ -14,10 +16,16 @@ After you install Anaconda, make sure to update everything. Skipping this step e
 conda update --all
 ```
 
+## Install the nb_conda_kernels Package
+Begin by installing the package that will automatically create new jupyter kernels when you create a new environment.
+```
+conda install nb_conda_kernels
+```
+
 ## Setting Up the Virtual Environment
 From here, it really only takes a few lines of code to get setup. Begin with:
 ```
-conda create -n [env_name] python=[python_version]
+conda create -n [env_name] nb_conda_kernels python=[python_version]
 ```
 You don't need to specify the python version, but the assumption is that the reason you are setting up a virtual environment is to work with multiple versions of python. Once you run the previous command to create the virtual environment, Windows will append the path to the virtualenv activate file in your %PATH% environmental variable. Now you may activate it by simply typing:
 ```
@@ -32,6 +40,7 @@ When you want to exit the virtual environment, you can at any time simply type:
 ```
 deactivate
 ```
+
 ## Using a virtualenv in an IPython notebook
 Now after installing the different virtual environments (and different python versions), you will notice that when you run the Jupyter Notebook, you won't have the kernel for the virtualenv pre-loaded. Getting it to recognize the virtual environments just takes a few additional [steps](https://help.pythonanywhere.com/pages/IPythonNotebookVirtualenvs/):
 1. Activate your virtualenv and install the ipython kernle module* 
