@@ -142,6 +142,7 @@ ggplot(data = monthlysentiment, aes(x = as.Date(month), y = count, group = senti
 Running the above code for all three lexicons resulted in this chart:
 
 ![](/images/2017-11-03-Twitter-Sentiment-Analysis-of-Westside-Road-Diets/ladot_BiweeklySentimentScores_Multiple.pdf?raw=TRUE)
+![](/images/2017-08-11-Extracting-Volume-Data-from-PDFs/example.jpg?raw=TRUE)
 
 It is interesting to note from the graphic above that the three lexicons did not always agree on whether the dominant emotion was positive or negative. For example, 
 
