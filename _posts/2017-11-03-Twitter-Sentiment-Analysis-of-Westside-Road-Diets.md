@@ -131,25 +131,109 @@ ggplot(data = monthlysentiment, aes(x = as.Date(month), y = count, group = senti
   geom_vline(aes(xintercept = as.numeric(as.Date("2017-10-2"))), 
              linetype=4, col = "black") +
   annotate("text",x = as.Date("2017-10-26"),y=275, label= "Culver/Jefferson WBound Reversal\n", size=3, angle=90) +  
-  # Culver / Jefferson Westbound Travel Lane Reversal Announced
-  geom_vline(aes(xintercept = as.numeric(as.Date("2016-10-17"))), 
-             linetype=4, col = "black") +
-  annotate("text",x = as.Date("2016-10-17"),y=250, label= "Trump Star Vandalized\n", size=3, angle=90) + 
   ylab("Sentiment Count") + 
   ggtitle("Tweet Sentiments Involving 'LADOT'")
 ```
 
-Running the above code for all three lexicons resulted in this chart:
+Running the above code for all three lexicons resulted in the chart below. 
 
 ![](/images/2017-11-03-Twitter-Sentiment-Analysis-of-Westside-Road-Diets/ladot_BiweeklySentimentScores_Multiple.png)
 
-It is interesting to note from the graphic above that the three lexicons did not always agree on whether the dominant emotion was positive or negative. For example, 
+This chart shows how overall twitter activity related to LADOT correlated with the major announcements of the summer, some of which happened on twitter itself. I added lines to annotate these major events, such as when the project was implemented and when parts of it were reversed. You can see how the lines matched up almost perfectly to the peaks of twitter activity.
 
-#### Takeaways
+The first thing that struck me from looking at the graphic above was that the three lexicons did not always agree on whether the dominant emotion was positive or negative. For example, at the height of the twitterstorms, the Afinn and NRC lexicons generally showed that positive emotion on twitter was stronger than negative emotion. The Bing lexicon, in contrast, showed a cummulative negative emotion that outweighed positive emotions during the event.
 
-* The analysis did a fairly good job of showing how overall twitter activity correlated with the major announcements of the summer, some of which happened on twitter itself. You can see how the lines matched up almost perfectly to the peaks of twitter activity.
+I decided to look only at the results from the Bing lexicon.
 
--look at the types of tweets that were scored differently by the different sentiment analysis tools
+```
+### Sentiment Over Time
+# Calculate Sentiment over Time
+tweets$timestamp <- with_tz(ymd_hms(tweets$timestamp), "America/Chicago")
+monthlysentiment <- tweets %>% 
+  # Group by Month
+  group_by(timestamp = cut(timestamp, breaks="2 weeks")) %>%
+  # For each month, sum totals of each emotion
+  summarise(bing.neg.sum = sum(bing.neg),
+            bing.pos.sum = sum(bing.pos)) %>%
+  # remove first/last (incomplete) months
+  slice(3:n()-2) %>% 
+  # then Use melt to flatten table
+  melt
+names(monthlysentiment) <- c("month", "sentiment", "count")
+
+# Plot Sentiment over Time
+ggplot(data = monthlysentiment, aes(x = as.Date(month), y = count, group = sentiment)) +
+  geom_line(size = 1, alpha = 0.7, aes(color = sentiment)) +
+  ylim(0, NA) +
+  theme(legend.title=element_blank(), axis.title.x = element_blank()) +
+  scale_x_date(breaks = date_breaks("3 months"), 
+               labels = date_format("%Y-%b")) +
+  # VdM Restriped
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-05-26"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-05-26"),y=300, label= "VdM Restriped\n", size=3, angle=90) +
+  # VdM Reversal Announced
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-07-26"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-07-26"),y=100, label= "VdM Reversal Announced\n", size=3, angle=90) +
+  # Full Reversal Announced w/ Garcetti
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-10-18"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-10-18"),y=275, label= "Full PdR Reversal Announced\n", size=3, angle=90) +
+  # Culver / Jefferson Westbound Travel Lane Reversal Announced
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-10-2"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-10-2"),y=275, label= "Culver/Jefferson WBound Reversal\n", size=3, angle=90) +  
+  ylab("Sentiment Count") + 
+  ggtitle("Tweet Sentiments Involving 'LADOT'")
+```
+
+![](/images/2017-11-03-Twitter-Sentiment-Analysis-of-Westside-Road-Diets/ladot_BiweeklySentimentScores_Bing.png)
+
+The output from this lexicon best matches my intuition about what what happening during the Westside projects. But wait - what is that small spike in traffic between 10/17/17 - 10/31/17? Let's explore the positive twitter media bump:
+
+```
+# Let's explore one of the local peaks between 10/17 & 10/31
+explore <- tweets %>%
+  select(bing.pos, text,timestamp) %>%
+  filter(timestamp > "2016-10-17" & timestamp < "2016-10-31")
+```
+
+It turns out that someone masquerading as a LADOT employee took some heavy equipment in the night and smashed the Trump star on the Hollywood Walk of Fame. Ha! See below for the updated chart.
+
+```
+# Plot Sentiment over Time
+ggplot(data = monthlysentiment, aes(x = as.Date(month), y = count, group = sentiment)) +
+  geom_line(size = 1, alpha = 0.7, aes(color = sentiment)) +
+  ylim(0, NA) +
+  theme(legend.title=element_blank(), axis.title.x = element_blank()) +
+  scale_x_date(breaks = date_breaks("3 months"), 
+               labels = date_format("%Y-%b")) +
+  # VdM Restriped
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-05-26"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-05-26"),y=300, label= "VdM Restriped\n", size=3, angle=90) +
+  # VdM Reversal Announced
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-07-26"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-07-26"),y=100, label= "VdM Reversal Announced\n", size=3, angle=90) +
+  # Full Reversal Announced w/ Garcetti
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-10-18"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-10-18"),y=275, label= "Full PdR Reversal Announced\n", size=3, angle=90) +
+  # Culver / Jefferson Westbound Travel Lane Reversal Announced
+  geom_vline(aes(xintercept = as.numeric(as.Date("2017-10-2"))), 
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2017-10-2"),y=275, label= "Culver/Jefferson WBound Reversal\n", size=3, angle=90) +  
+  # # Trump Star Vandalized
+  geom_vline(aes(xintercept = as.numeric(as.Date("2016-10-17"))),
+             linetype=4, col = "black") +
+  annotate("text",x = as.Date("2016-10-17"),y=250, label= "Trump Star Vandalized\n", size=3, angle=90) +
+  ylab("Sentiment Count") + 
+  ggtitle("Tweet Sentiments Involving 'LADOT'")
+```
+
+![](/images/2017-11-03-Twitter-Sentiment-Analysis-of-Westside-Road-Diets/ladot_BiweeklySentimentScores_Bing2.png)
 
 #### Future: Machine Learning Methods
-Another method that I wanted to try included (this method using doc2vec)[https://www.r-bloggers.com/twitter-sentiment-analysis-with-machine-learning-in-r-using-doc2vec-approach/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29]. The previous approach that the author took was a word-based approach, where the final 'sentiment' is calculated based on the difference of positive and negative words. The author updated the approach with a machine-learning method with a training set where the tweets were classified in their entirety. However, I lowered my expectations after reading some of the comments on the original blog post. I'll give the machine learning methods a shot in the future, but for now, I am satisfied with my lexicon-based work.
+Another method that I wanted to try included (this method using doc2vec)[https://www.r-bloggers.com/twitter-sentiment-analysis-with-machine-learning-in-r-using-doc2vec-approach/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29]. The previous approach that the author took was a word-based approach, where the final 'sentiment' is calculated based on the difference of positive and negative words. The author updated the approach with a machine-learning method with a training set where the tweets were classified in their entirety. However, I lowered my expectations after reading some of the comments on the original blog post about it not performing any better than the lexicon-based methods. I'll give the machine learning methods a shot in the future, but for now, I am satisfied with my lexicon-based work.
