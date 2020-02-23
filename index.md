@@ -4,7 +4,7 @@ layout: default
 
 ## Welcome!
 
-<img class="profile-picture" src="profile_photo_square.jpg">
+<img class="profile-picture" src="profile1.jpg">
 
 My name is Arun Ravishankar and I am currently working towards my doctorate in Physics at the University of Arizona where I investigate stability of black holes. Prior to this, I obtained my Bachelor's in Pharmacy and Integrated Master's in Physics in India. In my spare time, I've been working on a project in computational cancer genomics. You can find more details of my experience in my [resume](documents/Resume-Arun_Ravishankar.pdf)
 
