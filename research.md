@@ -4,9 +4,6 @@ layout: default
 
 ## Research
 
-
-Horizon instability of Black Holes and Black Branes
-
 In the long history of the study of stability of black holes, the last decade has been very exciting following the discovery of an instability of extreme black holes. A general understanding of the instability has emerged from a variety of techniques, whose domains of validity are largely non-overlapping. Due to the limited validity of these techniques, the cause of this instability has been elusive.
 
 In search of a simple description of a possibly universal phenomenon, in this [paper](https://arxiv.org/pdf/1911.11164.pdf), we studied the instability in the simplest possible setting. Using some neat tricks and numerical analysis we were able to identify the cause of the instability to be a class of null geodesics (light rays) that orbit around the event horizon for arbitrarily long times.
@@ -15,6 +12,7 @@ I have also been interested in studying the implications of this instability to 
 
 In this [paper](https://arxiv.org/pdf/1808.07053.pdf), we asked whether this horizon instability has implications for strongly coupled field theory. Surprisingly, the answer seems to be no: this effect is definitely physical in the bulk and is tied to the emergence of conformal symmetry and an associated 'semi-local quantum criticality' (a phase transition at zero temperature), which has been intensively studied with the hope of describing condensed matter systems, but the field theory on the boundary itself does not see this effect buried deep in the bulk of the spacetime.
 
+So far, the systems that have been studied with regards to this horizon instability all share the same near-horizon geometry, leading to an emergent symmetry which results in the instability. I am currently investigating an extremal horizon with a different near-horizon geometry - the D3 brane (the original system where the idea of holography emerged). Preliminary results indicate that the instability doesn't exist in this system, leading us to believe that the emergent symmetries due to the near-horizon geometry is crucial for the instability.
 
 ### Publications
  
