@@ -6,13 +6,10 @@ layout: default
 
 <img class="profile-picture" src="profile_photo_square.jpg">
 
-I am a transportation planner and researcher based in Los Angeles, California. 
+My name is Arun Ravishankar and I am currently working towards my doctorate in Physics at the University of Arizona where I investigate stability of black holes. Prior to this, I obtained my Bachelor's in Pharmacy and Integrated Master's in Physics in India. In my spare time, I've been working on a project in computational cancer genomics. You can find more details of my experience in my [resume](documents/Resume-Arun_Ravishankar.pdf)
 
-I've been fortunate enough to work on and study a variety of different topics within transportation, including the famous 'Carmageddon,' Los Angeles' innovative ExpressPark program, and the Vision Zero traffic safety initiative. In my spare time, I've undertaken other fun transportation-related projects, such as the Los Angeles Bus Map. 
+I am keen to leverage my diverse and strong mathematical background to tackle important, interesting and challenging problems in the medical field using computational methods and AI. Some of the fields that interest me are - Organ-on-chips, Genomics, Medical Imaging, Medical Diagnosis, Drug discovery, Toxicology, Clinical Trials, Precision Medicine.
 
-Please take a look at my [resume](documents/Tim_Black_Resume.pdf) or reach out to me at [timothy.c.black@gmail.com](mailto:timothy.c.black@gmail.com)  
- 
- 
- 
- 
+I maintain an online presence on [Linkedin](https://linkedin.com/in/arunravishankar/). Feel free to connect or reach out to me at <arunravishankar@gmail.com>
+
 ---
