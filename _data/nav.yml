@@ -1,8 +1,8 @@
-- name: "writing"
-  link: "https://black-tea.github.io/writing"
+- name: "Research"
+  link: "https://arunravishankar.github.io/research"
 
-- name: "projects"
-  link: "https://black-tea.github.io/projects"
+- name: "Projects"
+  link: "https://arunravishankar.github.io/projects"
 
 - name: "home"
-  link: "https://black-tea.github.io"
+  link: "https://arunravishankar.github.io"
