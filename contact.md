@@ -3,19 +3,21 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [arunravishankar@gmail.com](mailto:arunravishankar@gmail.com)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [+1-5205993744](tel:+1-5205993744)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> 7700 East Speedway Boulevard
 >
-> London
+> Apartment 1224
 >
-> United Kingdom
+> Tucson, AZ
+>
+> United States of America
 
 ---
 
