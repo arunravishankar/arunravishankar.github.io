@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Research
+# Doctoral Research
 
 In the long history of the study of stability of black holes, the last decade has been very exciting following the discovery of an instability of extreme black holes. A general understanding of the instability has emerged from a variety of techniques, whose domains of validity are largely non-overlapping. Due to the limited validity of these techniques, the cause of this instability has been elusive.
 
