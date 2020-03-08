@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Independent data exploration and Machine Learning
+# Independent projects - Machine Learning
 
-Over the last year I have been exploring data and ways to analyze and model them. Some of the projects I worked on are the following:
+During the last year of my doctoral studies, during my spare time, I have been exploring data and ways to analyze and model them. Some of the projects I worked on are the following:
 
 1. I analyzed [histology tiles of Colorectal cancer patients](https://github.com/arunravishankar/Colorectal_Cancer_Histology/blob/master/Colorectal_Cancer_Images.ipynb) - used clustering algorithms to understand the data better and eventually built a Convolutional Neural Network model to predict the type of tissue of a given image. I used this as a testing ground to understand some of the basics of clustering, CNNs and also to analyze image data. 
 
