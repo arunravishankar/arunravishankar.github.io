@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[//]: #### Independent data exploration and Machine Learning
+# Independent data exploration and Machine Learning
 
 Over the last year I have been exploring data and ways to analyze and model them. Some of the projects I worked on are the following:
 
