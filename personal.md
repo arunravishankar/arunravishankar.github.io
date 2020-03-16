@@ -4,6 +4,8 @@ layout: default
 
 # Personal
 
+* Physics has occupied a very large portion of my life. I'm extremely passionate about understanding the world around us from first principles and this has been something I've always wanted to do for all my life. Unfortunately, I had other concerns that sort of pushed me towards reality and consider a switch away from Physics although I absolutely love the work I do. I've written this up to make my thoughts documented in written words [here](https://docs.google.com/document/d/1PHNAtSWIIkav4CmcQVZcH2ZMKA8BsHL-qfGcUA8Tkh8/edit?usp=sharing).
+
 * My passion for physics shows when I teach. I've always strived to be spread my enthusiasm with people whom I speak to - this is one of the biggest lessons I took away from my time with Ananthan and Ravi (two of my biggest inspirations, both of whom, happened to be my physics teachers during high school). Unfortunately Ananthan is no more - I wrote [this](https://medium.com/@arunravishankar/to-the-man-who-made-me-fc51bc6514b0) tribute to him. 
 
 * I am very passionate about animal welfare and bringing justice to beings in need. I wrote [this](https://medium.com/@arunravishankar/all-this-is-normal-should-it-be-50c399011dc5) a few years back, hoping to educate people about the horrendous ways animals are treated. Regarding other people in need, those who are differently abled, I wrote [this](https://medium.com/@arunravishankar/why-do-abnormal-people-get-treated-differently-ae0e10c226ca) to just put my thoughts into words.
