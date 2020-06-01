@@ -5,7 +5,9 @@ layout: default
 
 My name is Arun Ravishankar and I am currently working towards my doctorate in Physics at the University of Arizona where I investigate the stability of black holes. Prior to this, I obtained my Bachelor's in Pharmacy and Integrated Master's in Physics in India. For my Master's thesis, I worked at a group in the mathematics department at LMU, Munich, Germany. 
 
-Wanting to understand my place in the bigger picture and contribute to a social cause, I've decided to move away from physics and work on something that has an impact to those in need of help. In this regard, in my spare time, I've been working on a few projects in Machine Learning in the biomedical setting. You can find more details of my experience in my [Resume](documents/Resume-Arun_Ravishankar.pdf). 
+Currently, not seeing where my work fits in the bigger picture, I want to direct my work towards a more directly impactful body of work. With a background in quantum physics, one direction I would like to explore is Quantum Information and Quantum Computing. You can find more details of my experience (tailored to jobs in this industry) in my [Resume](documents/Quantum_computing.pdf). 
+
+Aside from that, wanting to contribute to a social cause through my work, I've been working on a few projects in Machine Learning in the biomedical setting in my spare time. You can find more details of my experience in my [Resume](documents/Resume-Arun_Ravishankar.pdf). 
 
 I am very curious by nature and love to learn new things. I am keen to leverage my diverse and strong mathematical background to tackle important, interesting and challenging problems in the biomedical field using computational methods and AI. Some of the fields that interest me are:
 
