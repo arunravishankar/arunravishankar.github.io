@@ -8,6 +8,8 @@ layout: default
 
 * My passion for physics shows when I teach. I've always strived to be spread my enthusiasm with people whom I speak to - this is one of the biggest lessons I took away from my time with Ananthan and Ravi (two of my biggest inspirations, both of whom, happened to be my physics teachers during high school). Unfortunately Ananthan is no more - I wrote [this](https://medium.com/@arunravishankar/to-the-man-who-made-me-fc51bc6514b0) tribute to him. 
 
+* Early on when I got introduced to Bohmian mechanics, I started viewing physical theories in a very different light. I wrote [this](https://medium.com/@arunravishankar/nature-fe46c9a95fae) to try and convey my understanding of where physical theories fit in the larger picture of understanding nature. 
+
 * I am very passionate about animal welfare and bringing justice to beings in need. I wrote [this](https://medium.com/@arunravishankar/all-this-is-normal-should-it-be-50c399011dc5) a few years back, hoping to educate people about the horrendous ways animals are treated. Regarding other people in need, those who are differently abled, I wrote [this](https://medium.com/@arunravishankar/why-do-abnormal-people-get-treated-differently-ae0e10c226ca) to just put my thoughts into words.
 
 * I enjoy being one with nature whenever I find the time. I've had some really good times in the Alps, the Himalayas, the Rockies and the Catalina mountains. I used to maintain a [blog](https://thepolarbearwalk.tumblr.com/) of all the outdoorsy adventures I had. I stopped later on because I didn't really find the time to. 
