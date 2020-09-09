@@ -18,7 +18,7 @@ So far, the systems that have been studied with regards to this horizon instabil
  
 1. Semi-local Quantum Criticality and the Instability of Extremal Planar Horizons (with Samuel Gralla and Peter Zimmerman) [arXiv](https://arxiv.org/pdf/1808.07053.pdf); [journal](https://link.springer.com/article/10.1007/JHEP12(2018)087)
 
-2. Horizon Instability of the Extremal BTZ Black Hole (with Samuel Gralla and Peter Zimmerman) [arXiv](https://arxiv.org/pdf/1911.11164.pdf); journal article under review
+2. Horizon Instability of the Extremal BTZ Black Hole (with Samuel Gralla and Peter Zimmerman) [arXiv](https://arxiv.org/pdf/1911.11164.pdf); [journal](https://link.springer.com/article/10.1007%2FJHEP05%282020%29094)
 
 ### Talks
 
