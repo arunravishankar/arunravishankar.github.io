@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+# Research projects
+My research projects have spanned right from my undergraduate days until now.
 
-# Doctoral Research
+## Doctoral Research
 
 In the long history of the study of stability of black holes, the last decade has been very exciting following the discovery of an instability of extreme black holes. A general understanding of the instability has emerged from a variety of techniques, whose domains of validity are largely non-overlapping. Due to the limited validity of these techniques, the cause of this instability has been elusive.
 
@@ -29,6 +31,15 @@ Here are some of the talks I have given.
 3. [Horizon instability of the extremal BTZ black hole](documents/APS_Talk_2019.pdf) - presented at The American Physical Society, April Meeting 2019 in Denver, CO, USA.
 4. [The Aretakis instability of extreme asymptotically AdS black holes](documents/CMI_Arun_Ravishankar.pdf) - invited talk at Chennai Mathematical Institute and The Institute of Mathematical Sciences, Chennai, India.
 
+## Pre-doctoral research
 
+My research interests before I started my doctoral studies were primarily directed towards the foundations of quantum physics. 
+
+I was first introduced during a reading project to the EPR paper and Bell's inequalities which seemed to me to be an extremely strong result that nature is non-local! Through some reading I came across the body of work that seemed to overcome a lot of the problems of 'Copenhagen' Quantum theory and described quantum physics with particles moving in trajectories while still recovering all known formalisms and results - Bohmian mechanics. So I went on to work with Dr. Detlef Duerr at Ludwig Maximilians Universitaet, Munich, Germany on my Master's thesis on studying a way to describe time of arrival statistics in quantum theory. Conventional quantum theory does not allow the existence of a time operator because its canonical conjugate operator, the Hamiltonian, is a positive self-adjoint operator. However, we do observe phenomena such as the decay of a radioactive substance, emitting particles towards a detector, where we observe an arrival time distribution. Since conventional quantum theory doesn't provide us a formalism to help us describe this phenomenon, we used Positive-Operator-Valued-Measures (POVMs) to describe the arrival time statistics in the context of Bohmian mechanics. 
+
+During my time in Munich, I got interested in various ideas in the foundations of quantum physics. For the latter part of my time there, realizing the problems with the ad-hoc procedure to remove infinities that appeared in Quantum Electrodynamics (renormalization) which still gave extremely accurate predictions about the nature of reality, I tried to look at what I could learn from Wheeler and Feynman's attempt to come up with an underlying description of how a theory could look without needing this ad-hoc procedure of renormalization. The hope was to use the idea of advanced and retarded actions to somehow describe the Lamb shift in QED. Alas, I wasn't able to make much progress (after all, geniuses like Feynman had difficulties in making progress in this direction). I still am extremely curious about how one could overcome the difficulties of renormalization in quantum field theories. 
+
+With the idea of learning about techniques in computing the self-force, I moved to Arizona to work with my now advisor Dr. Samuel Gralla
+I worked on studying Wheeler-Feynman Electrodynamics and 
 
 
