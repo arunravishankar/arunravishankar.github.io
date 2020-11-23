@@ -7,7 +7,7 @@ My name is Arun Ravishankar and I am currently working towards my doctorate in P
 
 Currently, not seeing where my work fits in the bigger picture, I want to direct my work towards a more directly impactful body of work. With a background in quantum physics, one direction I would like to explore is Quantum Information and Quantum Computing. 
 
-Aside from that, wanting to contribute to a social cause through my work, I've been working on a few projects in Machine Learning in the biomedical setting in my spare time. You can find more details of my experience in my [Resume](documents/Resume-Arun_Ravishankar*.pdf). 
+Aside from that, wanting to contribute to a social cause through my work, I've been working on a few projects in Machine Learning in the biomedical setting in my spare time. You can find more details of my experience in my [Resume](documents/Resume-Arun_Ravishankar_.pdf). 
 
 I am very curious by nature and love to learn new things. I am keen to leverage my diverse and strong mathematical background to tackle purposeful, interesting and challenging problems in the biomedical field using computational methods and AI. Some of the fields that interest me are:
 
